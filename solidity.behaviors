@@ -1,0 +1,4 @@
+[
+    [:app :lt.objs.plugins/load-js ["codemirror/solidity.js" "solidity_compiled.js"]]
+    [:files :lt.objs.files/file-types [{:exts [:sol], :mime "text/x-solidity", :tags [:editor.solidity], :name "Solidity"}]]
+]

@@ -1,0 +1,6 @@
+{:name "solidity"
+ :version "0.0.1"
+ :author "Jason Graves (godlikemouse/collaboradev)"
+ :source "https://github.com/godlikemouse/solidity-lt"
+ :desc "Solidity language plugin for LightTable"
+ :behaviors "solidity.behaviors"}
