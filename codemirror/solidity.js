@@ -111,7 +111,14 @@ CodeMirror.defineMode("solidity", function(config, parserConfig) {
                 weeks: atom,
                 years: atom,
                 ether: atom,
-                now: atom
+                now: atom,
+                ether: atom,
+                finney: atom,
+                szabo: atom,
+                gwei: atom,
+                kwei: atom,
+                wei: atom
+
             };
 
             //implement loop for "ufixedMxN" and "fixedMxN" M=8,16,32..256, N=0,1,2..80
