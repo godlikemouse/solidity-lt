@@ -75,6 +75,7 @@ CodeMirror.defineMode("solidity", function(config, parserConfig) {
                 modifier: kw("modifier"),
                 address: kw("address"),
                 public: kw("public"),
+                private: kw("private"),
                 string: kw("string"),
                 int: kw("int"),
                 uint: kw("uint"),
