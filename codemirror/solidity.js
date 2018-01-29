@@ -100,6 +100,7 @@ CodeMirror.defineMode("solidity", function(config, parserConfig) {
                 using: kw("using"),
                 constant: kw("constant"),
                 returns: kw("returns"),
+                indexed: kw("indexed"),
 
                 //begin atom highlighting specific to solidity
                 block: atom,
