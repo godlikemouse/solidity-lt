@@ -101,6 +101,12 @@ CodeMirror.defineMode("solidity", function(config, parserConfig) {
                 constant: kw("constant"),
                 returns: kw("returns"),
                 indexed: kw("indexed"),
+                type: kw("type"),
+                abstract: kw("abstract"),
+                after: kw("after"),
+                final: kw("final"),
+                inline: kw("inline"),
+                relocatable: kw("relocatable"),
 
                 //begin atom highlighting specific to solidity
                 block: atom,
